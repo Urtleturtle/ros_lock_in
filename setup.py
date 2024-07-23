@@ -19,7 +19,12 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
+        'console_scripts': ['publisher = ros_lock_in.publisher:main',
+                            'subscriber = ros_lock_in.subscriber:main',
+                            'subscriber2 = ros_lock_in.bluerov2_sensors:main',
+                            'physicssubscriber = ros_lock_in.physics_sim:main',
+                            'drivepub = ros_lock_in.rovdrive:main',
+                            'armdisarm = ros_lock_in.armdisarm:main'
         ],
     },
 )

@@ -1,0 +1,7 @@
+[console_scripts]
+armdisarm = ros_lock_in.armdisarm:main
+drivepub = ros_lock_in.rovdrive:main
+physicssubscriber = ros_lock_in.physics_sim:main
+publisher = ros_lock_in.publisher:main
+subscriber = ros_lock_in.subscriber:main
+subscriber2 = ros_lock_in.bluerov2_sensors:main
